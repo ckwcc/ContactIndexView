@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndexPathView">
+        <attr name="outHeight" format="dimension"/>
+        <attr name="layerNum" format="integer"/>
+        <attr name="layerHeight" format="dimension"/>
+        <attr name="squareColor" format="color"/>
+        <attr name="squareWidth" format="dimension"/>
+        <attr name="layerLineColor" format="color"/>
+        <attr name="layerLineStroke" format="dimension"/>
+        <attr name="squareStroke" format="dimension"/>
+        <attr name="layerHorizontalWidth" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_header"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="52dp"
+        android:layout_height="52dp" />
+
+    <com.ckw.contactindexview.IndexPathView
+        android:id="@+id/index_path_view"
+        android:layout_below="@+id/iv_header"
+        app:layerHeight="40dp"
+        app:layerHorizontalWidth="20dp"
+        app:outHeight="20dp"
+        app:squareColor="@color/colorAccent"
+        app:squareStroke="2dp"
+        app:layerLineStroke="2dp"
+        app:squareWidth="6dp"
+        app:layerLineColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/index_path_view"
+        style="@style/listviewstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
